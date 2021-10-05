@@ -20,7 +20,6 @@ h1 {
 }
 
 details {
-    
     padding-bottom: 40px;
     margin-left: 40px;
     margin-right: 40px;
@@ -75,6 +74,14 @@ details {
     justify-content: space-evenly;
     display: flex;
     background-image: url(img/background.png);
+}
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(2.5);
 }
 
 .site-header a:hover,
